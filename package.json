@@ -1,0 +1,12 @@
+{
+  "name": "dsh-codex-bridge",
+  "version": "0.1.0",
+  "description": "Submit authenticated local DSH headless batches from Codex on Windows.",
+  "type": "module",
+  "main": "./index.js",
+  "license": "MIT",
+  "engines": {"node": ">=22", "dsh": ">=0.2.0-rc.2 <0.3.0-0"},
+  "keywords": ["dsh-plugin", "deepseek-harness", "codex"],
+  "files": ["index.js", "worker.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}}
+}

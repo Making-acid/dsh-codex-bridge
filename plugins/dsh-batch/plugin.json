@@ -1,0 +1,6 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dsh-batch",
+  "version": "0.1.0",
+  "description": "Send user-authorized task batches to the local DeepSeek Harness worker."
+}
